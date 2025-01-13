@@ -110,3 +110,12 @@ ret_code_t custom_notification_send(custom_service_t * p_service, uint8_t * p_da
     return err_code;
 }
 ```
+---------
+## 사용 
+
+```
+uint8_t noti_data[20]={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+if(Device_Operation_State.f.BLE_State == BLE_CONNECTION_STATUS)
+    custom_notification_send(&m_custom_service, noti_data, sizeof(noti_data));
+```
+
