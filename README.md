@@ -2,9 +2,9 @@
 nrf52840 기준의 ble 통신 중 custom gatt를 정의하고 app에 notification으로 data를 전송시키는 기능 구현   
   
 
-
-
   
+       
+      
 app에서는 CCCD를 활성화시켜줘야 정상적으로 FW에서 보낸 noti를 받을 수 있음.  
 
 CCCD 활성화는 bonding이 이루어지지 않은 상태에서 실행시켜야 함.  
