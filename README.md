@@ -1,7 +1,8 @@
 # nrf_custom_gatt_notification
 nrf52840 기준의 ble 통신 중 custom gatt를 정의하고 app에 notification으로 data를 전송시키는 기능 구현   
   
-
+https://blog.naver.com/cksung71/221257603340 
+참고 
 .
        
       
